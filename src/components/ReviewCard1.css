@@ -1,0 +1,42 @@
+
+.image{
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+}
+
+h2{
+  display:inline;
+}
+
+.cardback{
+  border-radius: 15px;
+  background-color: #D6C8B6;
+  padding: 5%;
+  /*width: 30%;*/
+  margin-top: 10px;
+  margin-left: 30px;
+  display: flex;
+}
+
+.cardtext{
+  color: rgb(9, 4, 35);
+  font-size: 200%;
+}
+
+.cardinfo{
+  color:rgb(13, 40, 31);
+  font-size: 130%;
+}
+
+.cardinfo2{
+  color:rgb(12, 54, 40);
+  font-size: 120%;
+}
+
+.stars{
+    margin-left:5%;
+    width: 10%;
+    height: auto;
+  }
+
