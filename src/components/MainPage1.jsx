@@ -8,7 +8,6 @@ import {
 } from 'react-router-dom';
 import '../App.css';
 
-
 class MainPage extends React.Component {
     render() {
     const image="https://media.istockphoto.com/id/1142873622/vector/travel.jpg?s=612x612&w=0&k=20&c=IzNwO_x-ENHTLfuObj5NFITXapRxgaMlgfVLqYjGT-0=";
@@ -47,7 +46,7 @@ class MainPage extends React.Component {
                         <br></br>
                         <img src={flight} width="33%" height="auto"></img>
                         <br></br>
-                        <Link to='/Flight'>  <button type="submit" className="btn btn-danger" style={{ marginTop: '30px' }}>Search for Flights!</button></Link>
+                        <Link to="/flights">  <button type="submit" className="btn btn-danger" style={{ marginTop: '30px' }}>Search for Flights!</button></Link>
                         <br></br>
                         <br></br>
                     </div>
@@ -56,7 +55,7 @@ class MainPage extends React.Component {
                     <div class="servicecard">
                         <img src={hotel} width="40%" height="auto"></img>
                         <br></br>
-                        <Link to='/Flight'>  <button type="submit" className="btn btn-danger" style={{ marginTop: '30px' }}>Book your Hotel!</button></Link>
+                        <Link to='/'>  <button type="submit" className="btn btn-danger" style={{ marginTop: '30px' }}>Book your Hotel!</button></Link>
                         <br></br>
                         <br></br>
                     </div>
@@ -66,7 +65,7 @@ class MainPage extends React.Component {
                         <br></br>
                         <img src={reservations} width="33%" height="auto"></img>
                         <br></br>
-                        <Link to='/Flight'>  <button type="submit" className="btn btn-danger" style={{ marginTop: '30px' }}>Manage your Reservations!</button></Link>
+                        <Link to='/History'>  <button type="submit" className="btn btn-danger" style={{ marginTop: '30px' }}>Manage your Reservations!</button></Link>
                         <br></br>
                         <br></br>
                     </div>
@@ -110,3 +109,4 @@ class MainPage extends React.Component {
 }
 
 export default MainPage;
+
